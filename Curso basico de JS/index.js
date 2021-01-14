@@ -6,3 +6,8 @@ console.log("Hola que mas ");
 }
 
 console.log(typeof "hol");
+
+//para crear una rama
+
+//git checkout --orphan rama
+//git rm --cached -rf .
