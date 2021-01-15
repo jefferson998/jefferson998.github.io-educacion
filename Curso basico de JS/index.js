@@ -14,7 +14,11 @@ console.log(typeof "hol");
 // funciones
 
 // declarativas
+//*
 
+
+
+*//
 function miFuncion() {
   return 3;
 }
