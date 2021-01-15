@@ -1,0 +1,175 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+html {
+  font-size: 62.5%;
+  /* background-color: #000000; */
+  background-image: url("/goolgleclone/pexels-eberhard-grossgasteiger-1421903.jpg");
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+header {
+  width: 100%;
+  height: 6rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+header nav .nav-right-section {
+  width: 25rem;
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+nav .nav-right-section a {
+  margin-right: 1rem;
+  color: white;
+}
+
+nav .nav-right-section .menu-icon {
+  background-image: url("/goolgleclone/logo-menu.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+}
+
+nav .nav-right-section img {
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+main {
+  margin-top: 7rem;
+  text-align: center;
+}
+main .main-logo {
+  width: 35rem;
+  margin: 0 auto;
+  margin-bottom: 0rem;
+}
+
+main .main-logo img {
+  width: 35rem;
+  margin: 0 auto;
+  background-position: center;
+}
+
+main .main-input {
+  width: 53rem;
+  margin: 0 auto;
+  margin-bottom: 3.5rem;
+}
+main .main-input-container {
+  width: 52.5rem;
+  border-radius: 10rem;
+  border: 0.1rem solid #72757a;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-input input {
+  width: 45rem;
+  height: 4rem;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: medium;
+  color: #72757a;
+}
+main .main-input-container:hover {
+  box-shadow: 0 0.1rem 0.6rem 0 #ffffff;
+  border-color: #ffffff;
+}
+
+main .main-input .search-icon {
+  background-image: url("https://img.icons8.com/android/24/000000/search.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+main .main-input .micro-icon {
+  background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 1.8rem;
+  height: 1.8rem;
+  cursor: pointer;
+}
+
+main .main-buttons {
+  width: 53rem;
+  margin: 0 auto;
+}
+
+main .main-buttons div {
+  display: inline-block;
+}
+
+main .main-buttons button {
+  height: 3.6rem;
+  background-color: #f2f2f2;
+  border: 0;
+  font-size: 1.4rem;
+  color: #72757a;
+  border-radius: 0.5rem;
+  padding: 0 1.5rem;
+  margin-right: 1.5rem;
+}
+
+main .main-buttons button:hover {
+  border: 0.1rem solid #72757a;
+  box-shadow: 0.1rem 0.1rem #72757a;
+}
+
+footer {
+  width: 100%;
+  height: 5rem;
+  position: absolute;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  font-size: 1.3rem;
+  background-color: #353535;
+  border-top: 0.1rem solid #e4e4e4;
+}
+footer ul {
+  margin: 0.1rem;
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+footer .footer-left {
+  justify-self: left;
+}
+footer .footer-right {
+  justify-self: right;
+}
+
+footer ul li a {
+  /* list-style: none; */
+  margin: 1rem;
+  text-decoration: none;
+  color: #f2f2f2;
+}
