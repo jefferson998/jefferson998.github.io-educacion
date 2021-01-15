@@ -1,0 +1,9 @@
+html {
+  font-size: 75%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* herencia */
+h1 {
+  /* padre mas cercano */
+  font-size: inherit;
+}

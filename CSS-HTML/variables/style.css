@@ -1,0 +1,42 @@
+/* variables */
+:root {
+  --primary-color: #333366;
+  --secondary-color: #999999;
+  --header-size: 4rem;
+  --font: 1.8rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+htnl {
+  font-size: 62.5%;
+}
+header {
+  width: 100vw;
+  height: 15vh;
+  background-color: var(--primary-color);
+}
+main {
+  width: 100vw;
+  height: 70vh;
+  font-size: var(--font);
+}
+
+h1 {
+  font-size: var(--font);
+  color: var(--primary-color);
+}
+
+footer {
+  width: 100vw;
+  height: 15vh;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: var(--font);
+  text-align: center;
+  font-weight: bolder;
+}

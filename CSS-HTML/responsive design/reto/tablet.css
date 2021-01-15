@@ -1,0 +1,44 @@
+.text-our-products h2 {
+  font-size: 4rem;
+}
+
+.item-product .item-product-title {
+  font-size: 1.8rem;
+}
+
+.item-product .item-product-description {
+  font-size: 1.2rem;
+}
+
+.container-products {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-product {
+  width: 40%;
+}
+
+.item-product:hover {
+  position: relative;
+  bottom: 20px;
+}
+
+.figure-product img {
+  max-width: 100px;
+  padding: 30px 0;
+}
+
+.product-value {
+  font-size: 4rem;
+  font-weight: 500;
+  color: green;
+  margin-left: 20px;
+}
+
+.fa-plus-circle {
+  color: #ffab00;
+  font-size: 40px;
+  margin-right: 20px;
+}

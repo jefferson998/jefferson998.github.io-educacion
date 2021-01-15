@@ -1,0 +1,23 @@
+/* cerca de un  hermano cercano */
+/* adjacent sibling */
+/* h2 + p {
+  color: red;
+} */
+/* hermwno general */
+/* h2 ~ p {
+  color: blue;
+} */
+
+/* ctr + k + u */
+
+/* Hijo y descendiente */
+
+div > p {
+  color: white;
+  background-color: black;
+}
+
+/* descendiente */
+div p {
+  color: navy;
+}

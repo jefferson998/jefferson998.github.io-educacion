@@ -1,0 +1,48 @@
+.main-nav {
+  margin-top: 16px;
+  list-style: none;
+  padding-left: 20px;
+  background-color: green;
+}
+
+.main-nav__item {
+  display: inline-block;
+}
+/* especifico elementos a */
+.main-nav__item a {
+  color: white;
+  padding: 10px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* pseudo-clases */
+/* definen el estilo de un estado especial de un elemento */
+
+.main-nav__item a:hover {
+  color: blue;
+}
+
+.main-nav__item a:active {
+  color: red;
+}
+
+/* pseudo elemento */
+/* definen el estilo de una parte de un elemento */
+
+.main-nav__item ::after {
+  content: " |";
+}
+
+main {
+  width: 100%;
+  height: 500px;
+  border: 10px solid grey;
+  padding: 20px 35px;
+}
+/* selector universal */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}

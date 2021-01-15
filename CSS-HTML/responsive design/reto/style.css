@@ -1,0 +1,234 @@
+:root {
+  --primary-color: #333366;
+  --secondary-color: #cccc99;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  overflow-x: hidden;
+  font-size: 1.6rem;
+}
+
+.header {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--primary-color);
+}
+
+.icon img {
+  width: 150px;
+}
+
+.menu-links {
+  display: flex;
+  list-style: none;
+}
+
+.menu-navigation {
+  margin-bottom: 20px;
+}
+
+.item-list {
+  margin: 0 4px;
+  padding: 4px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-family: "Lora", serif;
+  color: var(--secondary-color);
+}
+
+.container-main {
+  width: 100vw;
+  height: auto;
+}
+
+.section-one {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: PAPAYAWHIP;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-ilustration img {
+  width: 100%;
+}
+
+.content .content-title {
+  font-size: 3.2rem;
+  font-family: "Lora", serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.content .content-description {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  font-family: "Merriweather", serif;
+  margin-bottom: 20px;
+}
+
+.content .content-button {
+  width: 200px;
+  padding: 8px 30px;
+  font-size: 1.8rem;
+  color: #000;
+  background: var(--primary-color);
+  font-family: "Lora", serif;
+  border: 2px solid #000;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-box-shadow: 7px 10px 13px -5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 7px 10px 13px -5px rgba(0, 0, 0, 0.4);
+  box-shadow: 7px 10px 13px -5px rgba(0, 0, 0, 0.4);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.content-button p {
+  color: var(--secondary-color);
+}
+
+.burger-container img {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background: var(--primary-color);
+}
+
+.container-products {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.text-our-products h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-family: "Lora", serif;
+  color: var(--secondary-color);
+}
+
+.item-product {
+  width: 300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  -webkit-box-shadow: 7px 10px 17px 5px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 7px 10px 17px 5px rgba(0, 0, 0, 0.54);
+  box-shadow: 7px 10px 17px 5px rgba(0, 0, 0, 0.54);
+}
+
+.figure-product {
+  display: flex;
+  justify-content: center;
+}
+
+.figure-product img {
+  width: 50%;
+  padding: 20px 0;
+}
+
+.item-product .item-product-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 1.4px;
+  font-family: "Lora", serif;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.item-product .item-product-description {
+  font-size: 1.6rem;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  margin-bottom: 40px;
+}
+
+.item-product-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-value {
+  font-size: 5rem;
+  font-weight: 500;
+  color: green;
+  margin-left: 20px;
+}
+
+.fa-plus-circle {
+  color: var(--primary-color);
+  font-size: 50px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.logo-wpp {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.logo-wpp img {
+  width: 70px;
+}
+
+.content h2 {
+  color: var(--primary-color);
+}
+
+.footer-element {
+  background-color: var(--primary-color);
+  bottom: 0;
+  height: 8rem;
+  text-align: center;
+  padding: 0;
+}
+
+.footer-element__lista li {
+  list-style: none;
+  display: inline-block;
+  color: var(--secondary-color);
+  font-size: 4rem;
+}

@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* viewport */
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: green;
+}
+section {
+  width: 80%;
+  height: 500px;
+  background-color: red;
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 500px;
+}

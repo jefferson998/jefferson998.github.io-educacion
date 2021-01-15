@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  height: 10vh;
+  background-color: #333366;
+}
+
+main {
+  height: 80vh;
+}
+
+footer {
+  height: 10vh;
+  background-color: #333366;
+}
+
+figure,
+nav {
+  display: inline-block;
+}
+
+figure {
+  margin: 1rem;
+}
+
+li {
+  display: inline-block;
+  margin: 1rem;
+  color: #cccc99;
+  font-weight: bold;
+}
+
+nav {
+  position: absolute;
+  right: 1.5rem;
+}
+
+aside,
+section {
+  display: inline-block;
+  height: 80vh;
+}
+
+aside {
+  width: 20vw;
+  background-color: chocolate;
+  text-align: center;
+}
+
+aside div {
+  height: 15vh;
+  margin: 3vh;
+  background-color: crimson;
+  color: #cccc99;
+  font-weight: bold;
+}
+
+section {
+  position: absolute;
+  left: 20vw;
+  width: 80vw;
+  padding: 1rem;
+  background-color: whitesmoke;
+}
+
+.footer-social,
+.footer-info {
+  display: inline-block;
+  margin: 1rem;
+  color: #cccc99;
+  font-weight: bold;
+}
+
+.footer-info {
+  position: absolute;
+  right: 1.5rem;
+}
+
+#icono {
+  padding: 0;
+  margin-top: 0.4rem;
+  margin: 0.3rem;
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+#logotipo {
+  padding: 0;
+  margin-top: 2px;
+  margin: 2px;
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 5px;
+}
+
+.aside-element img {
+  padding: 0;
+  width: 60px;
+  height: 50px;
+  margin: 10px;
+}

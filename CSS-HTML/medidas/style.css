@@ -1,0 +1,31 @@
+/* p {
+  /* font-size: 18px; */
+/* font-size: 50%; */
+/* font-size: 15px;
+  background-color: black;
+  width: 100%;
+  height: 500px;
+} */
+/* medidas em generan problemas */
+/* regla de tres */
+/* para rem */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.text-container {
+  font-size: 3em;
+}
+/* medidas del primer padre */
+.text-container div {
+  font-size: 3em;
+}
+
+.text-container2 div,
+p {
+  font-size: 1rem;
+}
