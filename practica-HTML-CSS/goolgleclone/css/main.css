@@ -5,7 +5,7 @@
 html {
   font-size: 62.5%;
   /* background-color: #000000; */
-  background-image: url("/goolgleclone/pexels-eberhard-grossgasteiger-1421903.jpg");
+  background-image: url("../pexels-eberhard-grossgasteiger-1421903.jpg");
 }
 body {
   margin: 0;
@@ -40,7 +40,7 @@ nav .nav-right-section a {
 }
 
 nav .nav-right-section .menu-icon {
-  background-image: url("/goolgleclone/logo-menu.png");
+  background-image: url("../logo-menu.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

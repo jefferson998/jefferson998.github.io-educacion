@@ -1,0 +1,272 @@
+:root {
+  /* colores */
+  --bitcoin-orange: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --warm-black: #201e1c;
+  --black: #282623;
+  --grey: #bababa;
+  --off-white: #faf8f7;
+  --just-white: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-width: 320px;
+  height: 334px;
+  text-align: center;
+  background: linear-gradient(207.8deg, #931a25 16.69%, #ff7b54 100%);
+  /* background-size: 400% 400%; */
+
+  /* -webkit-animation: bgAnimateBitcoin 20s ease infinite;
+    -moz-animation: bgAnimateBitcoin 20s ease infinite;
+    animation: bgAnimateBitcoin 20s ease infinite; */
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+header nav .nav-right-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+nav .nav-right-section a {
+  margin-right: 15px;
+  color: white;
+}
+
+header img {
+  width: 180px;
+  height: 40px;
+  margin-top: 60px;
+  align-self: center;
+  /* contenedor flex center self */
+}
+
+.header--title-container {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  height: 218px;
+  margin-top: 40px;
+  text-align: center;
+  align-self: center;
+}
+
+.header--title-container h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+
+.header--title-container p {
+  margin-top: 25px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--soft-orange);
+}
+
+.header--title-container .header--button {
+  position: absolute;
+  left: calc(50% - 115px);
+  top: 270px;
+  display: block;
+  margin-top: 35px;
+  padding: 15px;
+  width: 229px;
+  height: 60px;
+  background-color: var(--off-white);
+  border: none;
+  box-shadow: 0px 4px 8px rgba(151, 9, 9, 0.16);
+  border-radius: 5px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.header--button span {
+  display: inline-block;
+  width: 13px;
+  height: 8px;
+  margin-left: 10px;
+  background-image: url("/beatcoin/assets/icono/down.svg");
+}
+
+main {
+  width: 100%;
+  height: auto;
+  background-color: var(--off-white);
+}
+.introduction-1 {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.introduction-1 .imagen-background {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-image: url("../img/oblea-animada.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.introduction-container--title {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.introduction-1 .introduction-container--title h2 {
+  margin-bottom: 30px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--black);
+}
+
+.introduction-1 .introduction-container--title p {
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: #757575;
+}
+
+/* main  */
+
+.section-ofertas {
+  width: 100%;
+  min-width: 320px;
+  margin-bottom: 70px;
+}
+
+.section-ofertas--title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.section-ofertas--title h2 {
+  padding-top: 50px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  text-align: center;
+  color: var(--warm-black);
+}
+.section-ofertas--title p {
+  padding-top: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  text-align: center;
+  color: #757575;
+}
+
+.section-ofertas--slider {
+  display: flex;
+  height: 316px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+.ofertas-container--card {
+  position: relative;
+  scroll-snap-align: center;
+  width: 70%;
+  min-width: 190px;
+  max-width: 300px;
+  height: 250px;
+  margin: 0 auto;
+  margin-left: 45px;
+  padding: 0 15px;
+  background-color: var(--just-white);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(89, 73, 0, 0.16);
+}
+.info-card--title {
+  padding-top: 30px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.8rem;
+  color: var(--warm-black);
+}
+
+.info-card--imagen {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  background-image: url("../img/oblea-animada.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.info-card--price {
+  position: relative;
+  padding: 5px 0;
+  font-size: 3rem;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  color: white;
+  background: linear-gradient(207.8deg, #931a25 16.69%, #ff7b54 100%);
+}
+
+footer section {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer-left ul {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  list-style: none;
+}
+
+.footer-left li {
+  margin: 10px 0;
+}
+
+.footer-left a {
+  text-decoration: none;
+}
