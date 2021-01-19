@@ -61,3 +61,8 @@ border
 margin
 manecillas del reloj
 margin: top rigth bottom left;
+
+### Accesibilidad
+
+tabindex
+arial-label

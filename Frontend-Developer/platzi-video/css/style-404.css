@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.6%;
+  font-family: "DM Sans", sans-serif;
+}
+body {
+  background-color: #19456b;
+}
+.header {
+  display: flex;
+  background-color: #19456b;
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__img img {
+  width: 150px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.notFound__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 40%;
+}
+
+.notFound__container--404 {
+  color: white;
+  font-size: 4rem;
+  line-height: 4.3rem;
+}
+.notFound__container--notpage {
+  color: white;
+  font-size: 1.6rem;
+}
+
+/* animacion */
+.animated {
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.pulse {
+  animation-name: pulse;
+  animation-duration: 1s;
+}
+.footer {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background-color: #5f7b94;
+}
+.footer a {
+  color: white;
+  cursor: pointer;
+  font-size: 1.4rem;
+  text-decoration: none;
+  margin-left: 25px;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
