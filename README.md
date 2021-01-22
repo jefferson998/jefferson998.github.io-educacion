@@ -1,1 +1,3 @@
-# Una nueva apuesta por No parar de aprender
+# La idea de NUNCA PARAR DE APRENDER
+
+Surge de un cambio de perspectiva
