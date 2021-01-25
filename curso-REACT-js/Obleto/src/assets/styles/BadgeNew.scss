@@ -1,8 +1,15 @@
+$color: #1b1b25;
+
 .BadgeNew__hero {
   width: 100%;
   padding: 2rem 0;
-  background: #1b1b25;
+  background: $color;
   background-repeat: repeat;
   margin-bottom: 1rem;
   color: #ffffff;
+  height: 100px;
+}
+
+.BadgeNew__hero img {
+  height: 50px;
 }

@@ -6,7 +6,7 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "bundle.js",
+    filename: "index.js",
   },
   devServer: {
     open: true,
@@ -43,11 +43,19 @@ module.exports = {
         use: [
           {
             loader: "file-loader",
-            options: { name: "assets/[hash].[ext]" },
+            options: {
+              name: "assets/[hash].[ext]",
+              limit: 8 * 24,
+              esModule: false,
+              publicPath: "./",
+            },
           },
         ],
       },
     ],
+  },
+  devServer: {
+    historyApiFallback: true,
   },
   plugins: [
     new HtmlWebPackPlugin({
@@ -56,7 +64,7 @@ module.exports = {
     }),
 
     new MiniCssExtractPlugin({
-      filename: "assets/[name].css",
+      filename: "assets/styles/[name].css",
     }),
   ],
 };

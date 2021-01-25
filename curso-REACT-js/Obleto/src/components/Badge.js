@@ -17,7 +17,7 @@ class Badge extends Component {
         </div>
         <div className="badge__section--info">
           <h3>{this.props.jobTitle}</h3>
-          <div>{this.props.email}@gmail.com</div>
+          <div>{this.props.email}</div>
         </div>
         <div className="badge__footer">
           <h3>#NO PARAR DE APRENDER</h3>
