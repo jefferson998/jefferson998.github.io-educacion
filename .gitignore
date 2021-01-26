@@ -76,3 +76,6 @@ yarn-error.log
 dist/
 /node_modules
 .next
+/curso-REACT-js
+/NEXT-JS
+/REACT-JS
