@@ -11,7 +11,7 @@ impor
         />
       </v-col>
 
-      <v-col class="mb-4">
+      <v-col class="title__ejemplo mb-4">
         <h1 class="display-2 font-weight-bold mb-3" style="{color:#991911}">
           Welcome to Vuetify
         </h1>
@@ -150,3 +150,10 @@ impor
     }),
   }
 </script>
+
+<style lang="stylus">
+
+.title__ejemplo{
+color:red;
+}
+</style>
